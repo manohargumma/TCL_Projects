@@ -7,10 +7,13 @@ while {[gets $fid line] != -1} {
     }
 
     set gate [lindex $line 0]
+    set outfile "${gate}.txt"
 
-    set out [open "${gate}.txt" a]
+    set out [open $outfile a]
     puts $out $line
     close $out
+
+    puts "Dumped: '$line' --> $outfile"
 }
 
 close $fid
