@@ -19,7 +19,7 @@ Parses LVS report files and identifies error entries.
 ### Example
 
 ```bash
-tclsh error_finder.tcl lvs_rpt.txt
+tclsh error_finder.tcl 
 ````
 
 ---
