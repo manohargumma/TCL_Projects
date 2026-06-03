@@ -1,34 +1,6 @@
 # TCL_Projects
 
-You can use a single professional README for the repository and briefly explain each TCL project.
 
-# README.md
-
-```markdown
-# TCL Projects for VLSI & OpenLane Report Analysis
-
-This repository contains a collection of TCL scripts developed for parsing, analyzing, and extracting useful information from VLSI design files, LVS reports, OpenLane reports, and Verilog netlists.
-
-## Project Structure
-
-```
-
-project_folder/
-│
-├── error_finder.tcl
-├── gate_finder.tcl
-├── wire_count.tcl
-├── port_find.tcl
-├── openlane_summary.tcl
-│
-├── lvs_rpt.txt
-├── sample_netlist.v
-├── metrics.csv
-└── README.md
-
-````
-
----
 
 ## 1. Error Finder
 
