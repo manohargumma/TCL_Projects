@@ -44,9 +44,10 @@ Analyzes a Verilog netlist and identifies logic gates used in the design dump th
 ### Example
 
 ```bash
-tclsh gate_finder.tcl sample_netlist.v
+tclsh gate_finder.tcl 
 ```
-
+![image](https://github.com/manohargumma/TCL_Projects/blob/6dcd904f67936c29f5b062773fc498b362512b02/image/Screenshot%20from%202026-06-03%2013-58-23.png)
+![image](https://github.com/manohargumma/TCL_Projects/blob/6dcd904f67936c29f5b062773fc498b362512b02/image/Screenshot%20from%202026-06-03%2013-58-33.png)
 ---
 
 ## 3. Wire Counter
