@@ -94,8 +94,9 @@ Extracts module ports from a Verilog netlist.
 ### Example
 
 ```bash
-tclsh port_find.tcl sample_netlist.v
+tclsh port_find.tcl 
 ```
+![image](https://github.com/manohargumma/TCL_Projects/blob/375115d4517976981cf456c314ad035678ec8ba2/image/Screenshot%20from%202026-06-02%2022-23-41.png)
 
 ---
 
@@ -118,9 +119,11 @@ Generates a concise summary from OpenLane metrics reports.
 ### Example
 
 ```bash
-tclsh openlane_summary.tcl metrics.csv
+tclsh openlane_summary.tcl 
 ```
-
+![image](https://github.com/manohargumma/TCL_Projects/blob/375115d4517976981cf456c314ad035678ec8ba2/image/Screenshot%20from%202026-06-03%2008-35-58.png)
+![image](https://github.com/manohargumma/TCL_Projects/blob/375115d4517976981cf456c314ad035678ec8ba2/image/Screenshot%20from%202026-06-03%2008-36-08.png)
+![image](https://github.com/manohargumma/TCL_Projects/blob/375115d4517976981cf456c314ad035678ec8ba2/image/Screenshot%20from%202026-06-03%2008-36-16.png)
 ---
 
 
