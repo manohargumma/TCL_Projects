@@ -32,7 +32,8 @@ tclsh error_finder.tcl
 
 ### Description
 
-Analyzes a Verilog netlist and identifies logic gates used in the design.
+Analyzes a Verilog netlist and identifies logic gates used in the design dump the gates into the based on gates different txt files
+
 
 ### Features
 
