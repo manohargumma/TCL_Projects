@@ -1,9 +1,16 @@
-set fid [open "sample_netlist.v r+]
-while {[gets $fid line]} {
-	if {[string trim $line] eq ""} {
-	continue
-	}
-	set gate [lindex $line 0]
-	exec echo $line >> ${gate}.txt
+set fid [open "sample_netlist.v" r]
+
+while {[gets $fid line] != -1} {
+
+    if {[string trim $line] eq ""} {
+        continue
+    }
+
+    set gate [lindex $line 0]
+
+    set out [open "${gate}.txt" a]
+    puts $out $line
+    close $out
 }
+
 close $fid
