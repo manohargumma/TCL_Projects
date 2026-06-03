@@ -21,7 +21,7 @@ Parses LVS report files and identifies error entries.
 ```bash
 tclsh error_finder.tcl 
 ````
-
+![image](https://github.com/manohargumma/TCL_Projects/blob/bc7eb9ac69459f41b6bb48b61d37b6e56d08cdbb/image/Screenshot%20from%202026-06-03%2008-09-38.png)
 ---
 
 ## 2. Gate Finder
