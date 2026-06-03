@@ -1,0 +1,32 @@
+========================================
+LVS REPORT
+========================================
+
+ERROR: Device mismatch
+  Layout device: NMOS M1
+  Schematic device: NMOS M2
+
+ERROR: Device mismatch
+  Layout device: PMOS P1
+  Schematic device: PMOS P2
+
+WARNING: Unconnected pin VDD
+
+ERROR: Net mismatch
+  Layout net: net23
+  Schematic net: net45
+
+INFO: LVS comparison running...
+
+ERROR: Missing device
+  Device: R12
+
+WARNING: Floating net detected
+
+ERROR: Parameter mismatch
+  Device: M5
+  Width mismatch
+
+========================================
+LVS COMPLETED
+========================================
