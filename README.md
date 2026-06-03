@@ -69,9 +69,9 @@ Counts wire declarations present in a Verilog netlist.
 ### Example
 
 ```bash
-tclsh wire_count.tcl sample_netlist.v
+tclsh wire_count.tcl 
 ```
-
+![image](https://github.com/manohargumma/TCL_Projects/blob/2004cad85044d68d64214dbcef5e31e49d7ec445/image/Screenshot%20from%202026-06-03%2014-01-04.png)
 ---
 
 ## 4. Port Finder
